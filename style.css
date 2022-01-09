@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    
+    width: 90vw auto;
+    height: 80vh;
+    background: linear-gradient(to bottom right,rgb(150, 150, 224), rgb(230, 230, 132))fixed;
+    
+}
+#container{
+    
+    width: 80vw;
+    height: 70vh;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#input-paranumber{
+    width: 40px;
+}
+input{
+    margin-left: 10px;
+}
+li{
+    margin:15px;
+}
+#para{
+width: 50rem;
+background-color: transparent;
+height: 40vh;
+}
+#copy{
+    display: none;
+}
+span{
+    color:red;
+}
